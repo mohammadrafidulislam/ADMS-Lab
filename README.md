@@ -18,7 +18,7 @@ React + Vite (Frontend) → REST API → Node.js + Express (Backend) → MongoDB
 
 Area Average = SUM(all rents) / COUNT(properties) | Standard Deviation = √(Σ(rent - avg)² / n) | Fair Range Low = Average - (0.5 × Std Dev) | Fair Range High = Average + (0.5 × Std Dev) | Status: Underpriced (Rent < Low), Fair (Low ≤ Rent ≤ High), Overpriced (Rent > High)
 
-**Example (Dhanmondi):** Area Average: ৳70,000 | Fair Range: ৳68,100 - ৳71,900 | User Rent: ৳60,000 → Underpriced ✅
+**Example (Dhanmondi):** Area Average: ৳70,000 | Fair Range: ৳68,100 - ৳71,900 | User Rent: ৳60,000 → Underpriced 
 
 ## Database Schema (MongoDB)
 
